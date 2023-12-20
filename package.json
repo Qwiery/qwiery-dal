@@ -1,0 +1,57 @@
+{
+  "name": "@orbifold/dal",
+  "author": {
+    "email": "info@orbifold.net",
+    "name": "Orbifold Consulting (Francois Vanderseypen)",
+    "url": "https://orbifold.net"
+  },
+  "description": "Generic and extensible graph data access layer.",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Qwiery/qwiery-dal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Qwiery/qwiery-dal/issues",
+    "email": "info@orbifold.net"
+  },
+  "engines": {
+    "node": ">=21"
+  },
+  "private": false,
+  "version": "4.0.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui --coverage",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@orbifold/graphs": "^4.0.3",
+    "@orbifold/projections": "^4.0.0",
+    "@orbifold/utils": "^4.0.2",
+    "@types/node": "^20.10.3",
+    "@vitest/coverage-v8": "^1.1.0",
+    "eventemitter3": "^5.0.1",
+    "jscrypto": "1.0.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.4",
+    "vitest": "^1.1.0"
+  },
+  "dependencies": {
+    "@vitest/ui": "^1.1.0"
+  }
+}
