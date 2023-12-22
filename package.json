@@ -19,7 +19,7 @@
     "node": ">=21"
   },
   "private": false,
-  "version": "4.0.0",
+  "version": "4.0.5",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -36,22 +36,23 @@
     "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
-    "@faker-js/faker": "^8.0.2",
-    "@orbifold/graphs": "^4.0.3",
-    "@orbifold/projections": "^4.0.0",
-    "@orbifold/utils": "^4.0.2",
     "@types/node": "^20.10.3",
     "@vitest/coverage-v8": "^1.1.0",
-    "eventemitter3": "^5.0.1",
-    "jscrypto": "1.0.3",
-    "lodash": "^4.17.21",
-    "moment": "^2.29.4",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
     "vite-plugin-dts": "^3.6.4",
-    "vitest": "^1.1.0"
+    "vite-plugin-node-polyfills": "^0.17.0",
+    "vitest": "^1.1.0",
+    "@vitest/ui": "^1.1.0"
   },
   "dependencies": {
-    "@vitest/ui": "^1.1.0"
+    "jscrypto": "1.0.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "@faker-js/faker": "^8.0.2",
+    "eventemitter3": "^5.0.1",
+    "@orbifold/graphs": "^4.0.3",
+    "@orbifold/projections": "^4.0.0",
+    "@orbifold/utils": "^4.0.2"
   }
 }
